@@ -12,6 +12,10 @@ app.get('/', function (req, res) {
   //res.sendFile(__dirname + '/test/index.html');
 });
 
+app.get('/about',function(req,res){
+  res.send('About Message with Node JS Express!');
+});
+
 app.use('/api', express.static('api'));
 
 app.listen(4000, function () {
