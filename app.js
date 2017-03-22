@@ -1,0 +1,19 @@
+var express = require('express');
+var app = express();
+
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
+
+app.get('/', function (req, res) {
+  res.send('Hello World!');
+  //res.sendFile(__dirname + '/test/index.html');
+});
+
+app.use('/api', express.static('api'));
+
+app.listen(4000, function () {
+  console.log('Example app listening on port 4000!');
+});

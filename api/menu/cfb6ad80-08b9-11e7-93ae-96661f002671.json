@@ -1,0 +1,26 @@
+{
+    "uuid": "cfb6ad80-08b9-11e7-93ae-96661f002671",
+    "visible": true,
+    "position": "horizontal",
+    "label": "Menu 2",
+    "items" : [
+        {
+            "uuid": "unom-1",
+            "label": "opción 1a",
+            "visible": true,
+            "enabled": true
+        },
+        {
+            "uuid": "unom-2",
+            "label": "opción 2a",
+            "visible": true,
+            "enabled": false
+        },
+        {
+            "uuid": "unom-3",
+            "label": "opción 3a",
+            "visible": true,
+            "enabled": false
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "componentName": "ByeComponent",
+    "config": {
+        "label": "Soy una instsancia de componente",
+        "variable-name": "estado8",
+        "style": {
+            "color":"red",
+            "font-size":"34px"
+        }
+    }
+}

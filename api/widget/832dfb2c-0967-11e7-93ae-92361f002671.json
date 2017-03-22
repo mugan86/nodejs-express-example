@@ -1,0 +1,11 @@
+{
+    "componentName": "HelloComponent",
+    "config": {
+        "label": "Soy una instsancia de componente",
+        "variable-name": "estado7",
+        "style": {
+            "color":"red",
+            "font-size":"34px"
+        }
+    }
+}

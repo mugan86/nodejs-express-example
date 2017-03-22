@@ -1,0 +1,19 @@
+{
+  "name": "config-services",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "startServer"
+  },
+  "keywords": [
+    "express",
+    "angular2",
+    "node"
+  ],
+  "author": "Fagor Automation",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
