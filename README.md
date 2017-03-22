@@ -1,12 +1,20 @@
-# nodejs-express-example
+# Node JS Express Server Example
 Example to playground with Node JS Express
 
-#Instructions to execute Node JS Express Server
+### Instructions to execute Node JS Express Server
 
-Need to install Node JS.
+Need to install Node JS in: https://nodejs.org/es/.
 
-npm install to install all dependencies.
+Install NPM dependencies:
 
-node app.js
+`npm install`
 
-Open in http://localhost:4000/
+Execute server
+
+`node app.js`
+
+Open in browser:
+
+http://localhost:4000/
+
+I use this documentation: http://expressjs.com/
