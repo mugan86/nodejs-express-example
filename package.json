@@ -1,7 +1,7 @@
 {
   "name": "config-services",
   "version": "1.0.0",
-  "description": "",
+  "description": "Server node that I will use to make simple API requests",
   "main": "app.js",
   "scripts": {
     "test": "startServer"
@@ -11,7 +11,8 @@
     "angular2",
     "node"
   ],
-  "author": "Fagor Automation",
+  "author": "Anartz Mugika",
+  "email": "mugan86@gmail.com",
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.2"
